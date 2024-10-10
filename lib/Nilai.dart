@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'Pengelompokan Nilai Siswa',
       theme: ThemeData.light(), // Tema terang
       darkTheme: ThemeData.dark(), // Tema gelap
